@@ -24,7 +24,7 @@ Leyenda: ✅ Completado · 🔄 En progreso · ⬜ Pendiente
 
 | ID | Título | Prio | SP | Estado |
 |----|--------|------|----|--------|
-| CORE-01 | Crear layout principal con Navbar responsiva y Footer | Alta | 3 | ⬜ |
+| CORE-01 | Crear layout principal con Navbar responsiva y Footer | Alta | 3 | ✅ |
 | CORE-02 | Desarrollar página de inicio (Hero, About, Skills) | Alta | 4 | ⬜ |
 | CORE-03 | Crear página de contacto con formulario y validación | Media | 3 | ⬜ |
 | CORE-04 | Implementar modo oscuro (dark mode) con next-themes | Media | 2 | ⬜ |
@@ -33,11 +33,11 @@ Leyenda: ✅ Completado · 🔄 En progreso · ⬜ Pendiente
 ### CORE-01 — Detalles
 **Aprenderás:** Next.js Layouts, Server Components, Tailwind responsive  
 **Subtareas:**
-- [ ] Crear `src/components/layout/Navbar.tsx` con links de navegación
-- [ ] Crear `src/components/layout/Footer.tsx` con links sociales
-- [ ] Integrar Navbar y Footer en `src/app/layout.tsx`
-- [ ] Responsivo: menú hamburguesa en mobile
-- [ ] Active link highlight según ruta actual (usePathname)
+- [x] Crear `src/components/layout/Navbar.tsx` con links de navegación
+- [x] Crear `src/components/layout/Footer.tsx` con links sociales
+- [x] Integrar Navbar y Footer en `src/app/layout.tsx`
+- [x] Responsivo: menú hamburguesa en mobile
+- [x] Active link highlight según ruta actual (usePathname)
 
 ### CORE-02 — Detalles
 **Aprenderás:** Static generation, Framer Motion, next/image  
