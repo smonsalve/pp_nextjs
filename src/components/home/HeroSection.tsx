@@ -19,7 +19,7 @@ const item = {
 
 export default function HeroSection() {
   return (
-    <section className="min-h-screen bg-gray-950 text-white flex items-center justify-center px-4">
+    <section className="min-h-screen bg-gray-950 dark:bg-gray-950 text-white flex items-center justify-center px-4">
       <motion.div
         className="max-w-2xl text-center"
         variants={container}
@@ -28,7 +28,7 @@ export default function HeroSection() {
       >
         <motion.p
           variants={item}
-          className="text-sm tracking-widest uppercase text-gray-400 mb-4"
+          className="text-sm tracking-widest uppercase text-gray-400 dark:text-gray-400 mb-4"
         >
           Systems Engineer · Data Science · AI
         </motion.p>
@@ -38,7 +38,7 @@ export default function HeroSection() {
         >
           {SITE_CONFIG.author.name}
         </motion.h1>
-        <motion.p variants={item} className="text-lg text-gray-400 mb-10 max-w-xl mx-auto">
+        <motion.p variants={item} className="text-lg text-gray-400 dark:text-gray-400 mb-10 max-w-xl mx-auto">
           {SITE_CONFIG.description}
         </motion.p>
         <motion.div variants={item} className="flex justify-center gap-4 flex-wrap">

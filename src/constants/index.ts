@@ -30,3 +30,5 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   { platform: 'email', href: 'mailto:smonsalve@gmail.com', label: 'Email' },
 ]
+
+export * from './skills'
