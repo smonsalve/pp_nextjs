@@ -12,10 +12,6 @@ export default function MobileMenu() {
   const pathname = usePathname()
 
   useEffect(() => {
-    setIsOpen(false)
-  }, [pathname])
-
-  useEffect(() => {
     if (!isOpen) return
 
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -77,6 +73,7 @@ export default function MobileMenu() {
               <Link
                 key={link.href}
                 href={link.href}
+                onClick={() => setIsOpen(false)}
                 className={cn(
                   'text-lg transition-colors',
                   isActive
